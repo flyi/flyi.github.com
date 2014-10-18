@@ -121,7 +121,7 @@ ga('send', 'pageview');
     </div>
     <footer class="article-footer">
 	  
-	  <a data-url="http://flynn.xyz/2014/10/16/第一篇文章/" data-id="a0s2l3ojxnfruehh" data_title="第一篇文章" data_summary="这是我写的第一篇文章。
+	  <a data-url="http://flynn.xyz/2014/10/16/第一篇文章/" data-id="calaqk5n48k9cgn1" data_title="第一篇文章" data_summary="这是我写的第一篇文章。
 1一句话
 
 结束
@@ -207,7 +207,7 @@ ga('send', 'pageview');
     </div>
     <footer class="article-footer">
 	  
-	  <a data-url="http://flynn.xyz/2014/10/13/hello-world/" data-id="oaxpuhflmk46lanv" data_title="Hello World" data_summary="Welcome to Hexo! This is yo..." class="article-share-link">Share</a>
+	  <a data-url="http://flynn.xyz/2014/10/13/hello-world/" data-id="o29ng8atrxq73app" data_title="Hello World" data_summary="Welcome to Hexo! This is yo..." class="article-share-link">Share</a>
       
 
       
@@ -540,7 +540,10 @@ new LGY_calendar('g-calendar');
   <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
 
-
+<link href='/jumly/jumly.css' rel='stylesheet'/>
+<script src='http://code.jquery.com/jquery-2.0.0.min.js'></script>
+<script src='/jumly/coffee-script.js'></script>
+<script src='/jumly/jumly.min.js'></script>
 <div class="bottom-btn">
 
 	<a class="icon-gotop" href="javascript:void(0)" title="返回顶部"></a>
@@ -560,5 +563,20 @@ new LGY_calendar('g-calendar');
 
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
