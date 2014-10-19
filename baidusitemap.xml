@@ -3,26 +3,32 @@
 
     
   <url>
-    <loc>http://flynn.xyz/2014/10/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2014-10-16T14:27:52.000Z</lastmod>
+    <loc>http://flynn.xyz/2014/10/13/hello-world/</loc>
+    <lastmod>2014-10-19T10:39:16.000Z</lastmod>
     <data>
         <display>
-        <title>第一篇文章</title>
-        <pubTime>2014-10-15T16:09:13.000Z</pubTime>
+        <title>Github+Hexo构建我的博客</title>
+        <pubTime>2014-10-12T16:09:13.000Z</pubTime>
         
          
+              <breadCrumb title="hexo" url="http://flynn.xyz/tags/hexo/"/>
+          
+              <breadCrumb title="github" url="http://flynn.xyz/tags/github/"/>
+          
+              <breadCrumb title="技术" url="http://flynn.xyz/categories/tecnology/"/>
+          
         </display>
     </data>
     </url>
 
     
   <url>
-    <loc>http://flynn.xyz/2014/10/13/hello-world/</loc>
-    <lastmod>2014-10-15T04:58:30.000Z</lastmod>
+    <loc>http://flynn.xyz/2014/10/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2014-10-19T10:26:13.000Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2014-10-13T14:58:20.000Z</pubTime>
+        <title>第一篇文章</title>
+        <pubTime>2014-10-15T16:09:13.000Z</pubTime>
         
          
         </display>

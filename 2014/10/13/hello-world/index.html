@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hello World | 创·界</title>
+  <title>Github+Hexo构建我的博客 | 创·界</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="flynn's blog | scifi">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="Github+Hexo构建我的博客">
 <meta property="og:url" content="http://flynn.xyz/2014/10/13/hello-world/">
 <meta property="og:site_name" content="创·界">
 <meta property="og:description" content="flynn's blog | scifi">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
+<meta name="twitter:title" content="Github+Hexo构建我的博客">
 <meta name="twitter:description" content="flynn's blog | scifi">
 
   
@@ -81,11 +81,15 @@ ga('send', 'pageview');
   <div class="article-meta">
     
 <a href="/2014/10/13/hello-world/" class="article-date">
-  <time datetime="2014-10-13T14:58:20.000Z" itemprop="datePublished">10月 13 2014</time>
+  <time datetime="2014-10-12T16:09:13.000Z" itemprop="datePublished">10月 13 2014</time>
 </a>
 
 
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/tecnology/">技术</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -94,7 +98,7 @@ ga('send', 'pageview');
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Github+Hexo构建我的博客
     </h1>
   
 
@@ -106,28 +110,51 @@ ga('send', 'pageview');
 		<div id="toc" class="toc-article">
 			<h2 class="toc-title"><span>文章目录</span></h2>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick_Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_a_new_post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run_server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate_static_files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy_to_remote_sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-number">1.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#github"><span class="toc-number">1.1.</span> <span class="toc-text">github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#域名（可选）"><span class="toc-number">1.2.</span> <span class="toc-text">域名（可选）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#git，Node-js和SublimeText"><span class="toc-number">1.3.</span> <span class="toc-text">git，Node.js和SublimeText</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo"><span class="toc-number">2.</span> <span class="toc-text">安装hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#初始化"><span class="toc-number">3.</span> <span class="toc-text">初始化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#上传博客"><span class="toc-number">4.</span> <span class="toc-text">上传博客</span></a></li></ol>
 		
 		</div>
 		
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+        <p>我的这个博客网站是用hexo搭建，在Github上托管的。下面我记录下我的建站过程。</p>
+<a id="more"></a>
 
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>数月前初次接触网站建设，未果。国庆节左右，突然又想搭建一个属于我自己的博客，于是开始我的博客建设之路了。首先接触到wordpress，很著名很强大的博客平台，插件多，主题模板丰富，也较容易上手。但网站空间需要支持PHP和MySQL，于是我就在<a href="http://sourceforge.net" target="_blank" rel="external">SF</a>鼓捣，一直未成。偶然间，听到了<a href="http://hexo.io" target="_blank" rel="external">hexo</a>，hexo是由<a href="http://www.nodejs.org" target="_blank" rel="external">Node.js</a>驱动的一款快速、简单且功能强大的博客框架,可以方便的生成静态网页托管在github和Heroku上。<br>作者是来自台湾的大学生[@tommy351](<a href="https://github.com/tommy351/hexo）。“大学生”啊，吾等自愧弗如。引用官方原话：" target="_blank" rel="external">https://github.com/tommy351/hexo）。“大学生”啊，吾等自愧弗如。引用官方原话：</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">A fast, simple & powerful blog framework,</div><div class="line">powered by Node.js.</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>hexo很容易使用，文件小，可以快速方便地生成网站文件。然后，我就开始用hexo构建此博客了。而且，这也是我写的第一篇技术博客。</p>
+<h2 id="准备工作">准备工作</h2>
+<h3 id="github">github</h3>
+<p>GitHub 是一个共享虚拟主机服务，用于存放使用Git版本控制的软件代码和内容项目。<br>作为开源代码库以及版本控制系统，Github目前拥有140多万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。<br>上述介绍来自维基与百度。在我看来，github就是开源项目托管代码，分享代码，与人合作共同开发项目的平台。<br>我之前就已经注册了，但一直不知道该干些什么，现在终于起到了作用。<br>我用github来托管我的博客的原因还有：github不限空间容量，不限流量，没有广告，可以绑定自己的域名。</p>
+<p>注册github账号后，新建仓库（repository），仓库名为：yourname.github.com<br>建好后，进入这个仓库，点右边setting，进入设置，找到github pages,点automatic page generator,自己随便选一个样式，之后可以更改，而且这之后会被你自己的网站替换，现在只是弄出来预览一下，让你知道这个网站空间已准备好。<br>github现在给你提供了域名yourname.github.com，进入看看，你就会看见刚刚预设的网页了。</p>
+<h3 id="域名（可选）">域名（可选）</h3>
+<p>我不想用yourname.github.com这个github提供的，想用我自己的，我就购买了flynn.xyz这个域名。</p>
+<p>域名绑定方法：<br>在仓库里新建文件，名为CNAME，内容为你自己的域名。<br>再到你的域名供应商那里解析你自己的域名，添加A记录，IP地址为：204.232.175.78 或 207.97.227.245<br>等数小时，最多24小时，你就可以用自己的域名进入网站了。</p>
+<h3 id="git，Node-js和SublimeText">git，Node.js和SublimeText</h3>
+<p>首先是git，推荐下载安装<a href="http://msysgit.github.io/" target="_blank" rel="external">msysgit</a>，当然其他git软件也没问题。</p>
+<p>然后是<a href="http://www.nodejs.org" target="_blank" rel="external">Node.js</a>,不要怕，这个软件你完全不用学，也不需要你自己使用，下载安装之后，你完全不用再去管它，连打开都没有必要，它只是给hexo提供环境而已。老实说，我到现在都没动过它几次，偶尔好奇就打开看看，暂时也不想去学。</p>
+<p>安装代码编辑器：<br>已有代码编辑器的童鞋跳过此步。代码编辑器随自己的喜好，就我所了解的有Vi,Vim,SublimeText,Notepad++等。<br>我个人目前使用的是SublimeText2，功能强大，用户界面又特别美观。</p>
+<h2 id="安装hexo">安装hexo</h2>
+<p>桌面或任意路径鼠标右键，选git bash，命令安装：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<h2 id="初始化">初始化</h2>
+<p>以下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<p>folder为你要安装hexo的路径。<br>对于不熟悉命令行操作的盆友，可在你想要安装的路径（如E:\hexo\）内，再右键进git bash，</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+
+<p>即可</p>
+<p>现在已经搭建好博客了，输入下面这条命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ nexo generate</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+
+<p>然后在浏览器进入localhost:4000,你就会看到已经初始化的博客了。<br>好了，至此你的博客就已经在本地搭建好了。</p>
+<h2 id="上传博客">上传博客</h2>
+<p>编辑你的Hexo目录下的_config.yml文件（替换成你自己的信息）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: github</div><div class="line">  repository: https://github.com/yourname/yourname.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+
+<p>现在需要配置SSH keys，容我之后再介绍。</p>
+<p>暂时可以下载安装Github的官方Git软件，手动将你的博客文件（在你的hexo\deploy\，除.git文件外都是）上传到你的Github的yourname.github.com仓库中。</p>
+<p>未完，待续。。。</p>
 
       
     </div>
@@ -138,9 +165,11 @@ ga('send', 'pageview');
 	  <!-- 百度分享 End -->
 	  
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
 	  
 <span>
-更新日期:<time datetime="2014-10-15T04:58:30.000Z" itemprop="dateModified">10月 15 2014</time>
+更新日期:<time datetime="2014-10-19T10:39:16.000Z" itemprop="dateModified">10月 19 2014</time>
 </span>
 
 
@@ -170,7 +199,7 @@ ga('send', 'pageview');
 <!-- 多说评论框 start -->
 
 <section id="comments">
-  <div class="ds-thread"  data-thread-key="/2014/10/13/hello-world/" data-title="Hello World" data-url="http://flynn.xyz/2014/10/13/hello-world/" id="ds_thread">
+  <div class="ds-thread"  data-thread-key="/2014/10/13/hello-world/" data-title="Github+Hexo构建我的博客" data-url="http://flynn.xyz/2014/10/13/hello-world/" id="ds_thread">
     <noscript>Please enable JavaScript to view the <a href="//duoshuo.com/?ref_noscript">comments powered by duoshuo.</a></noscript>
   </div>
 </section>
@@ -181,7 +210,7 @@ ga('send', 'pageview');
           
   <div id="toc" class="toc-aside">
   <h2 class="toc-title">文章目录</h2>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick_Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_a_new_post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run_server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate_static_files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy_to_remote_sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-number">1.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#github"><span class="toc-number">1.1.</span> <span class="toc-text">github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#域名（可选）"><span class="toc-number">1.2.</span> <span class="toc-text">域名（可选）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#git，Node-js和SublimeText"><span class="toc-number">1.3.</span> <span class="toc-text">git，Node.js和SublimeText</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo"><span class="toc-number">2.</span> <span class="toc-text">安装hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#初始化"><span class="toc-number">3.</span> <span class="toc-text">初始化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#上传博客"><span class="toc-number">4.</span> <span class="toc-text">上传博客</span></a></li></ol>
   </div>
 
 <aside id="sidebar">
@@ -203,9 +232,23 @@ ga('send', 'pageview');
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/tecnology/">技术</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/github/" style="font-size: NaNpx; color: #NaNNaNNaN;">github</a><a href="/tags/hexo/" style="font-size: NaNpx; color: #NaNNaNNaN;">hexo</a>
+    </div>
+  </div>
+
 
   
     
@@ -229,7 +272,7 @@ ga('send', 'pageview');
           </li>
         
           <li>
-            <a href="/2014/10/13/hello-world/">Hello World</a>
+            <a href="/2014/10/13/hello-world/">Github+Hexo构建我的博客</a>
           </li>
         
       </ul>
@@ -323,9 +366,9 @@ LGY_calendar.prototype = {
             html+='<span class="g-calendar-grey">'+(last_date-(first_day-1)+i)+'</span>';
         }
         //本月的显示天数
-        var postdate = new Date("Mon Oct 13 2014 22:58:20 GMT+0800"); 
+        var postdate = new Date("Mon Oct 13 2014 00:09:13 GMT+0800"); 
 		if (true && postdate.getFullYear() == year && postdate.getMonth() == month) { 
-			html += '<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span><a href="/2014/10/13/hello-world/" title="Hello World">13</a></span><span>14</span><span>15</span><span><a href="/2014/10/16/第一篇文章/" title="第一篇文章">16</a></span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>';
+			html += '<span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span><a href="/2014/10/13/hello-world/" title="Github+Hexo构建我的博客">13</a></span><span>14</span><span>15</span><span><a href="/2014/10/16/第一篇文章/" title="第一篇文章">16</a></span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>';
 		} else {
 			for(var j=0;j<final_date;j++){        
 				html+='<span id="d'+(j+1)+'">'+(j+1)+'</span>';
@@ -363,7 +406,7 @@ LGY_calendar.prototype = {
     back:function(){
         var _that = this;
         this.oBack.onclick = function(){
-            var postdate = new Date("Mon Oct 13 2014 22:58:20 GMT+0800"); 
+            var postdate = new Date("Mon Oct 13 2014 00:09:13 GMT+0800"); 
             _that.year = postdate.getFullYear();
             _that.month = postdate.getMonth();
             // 填充日历
