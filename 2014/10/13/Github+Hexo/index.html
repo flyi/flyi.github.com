@@ -71,14 +71,7 @@ ga('send', 'pageview');
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://flynn.xyz"></form>
-        <form action="http://www.baidu.com/baidu" method="get" accept-charset="utf-8" class="search-form">
-          <input type="search" name="word" maxlength="20" class="search-form-input" placeholder="Search">
-          <input type="submit" value="" class="search-form-submit">
-          <input name=tn type=hidden value="bds">
-          <input name=cl type=hidden value="3">
-          <input name=ct type=hidden value="2097152">
-          <input type="hidden" name="si" value="flynn.xyz">
-        </form>
+
       </div>
     </div>
   </div>
@@ -125,13 +118,13 @@ ga('send', 'pageview');
         <p>我的这个博客网站是用hexo搭建，在Github上托管的。下面我记录下我的建站过程。</p>
 <a id="more"></a>
 
-<p>数月前初次接触网站建设，未果。国庆节左右，突然又想搭建一个属于我自己的博客，于是开始我的博客建设之路了。首先接触到wordpress，很著名很强大的博客平台，插件多，主题模板丰富，也较容易上手。但网站空间需要支持PHP和MySQL，于是我就在<a href="http://sourceforge.net" target="_blank" rel="external">SF</a>鼓捣，一直未成。偶然间，听到了<a href="http://hexo.io" target="_blank" rel="external">hexo</a>，hexo是由<a href="http://www.nodejs.org" target="_blank" rel="external">Node.js</a>驱动的一款快速、简单且功能强大的博客框架,可以方便的生成静态网页托管在github和Heroku上。<br>作者是来自台湾的大学生<a href="https://github.com/tommy351/hexo" target="_blank" rel="external">@tommy351</a>.“大学生”啊，吾等自愧弗如。引用官方原话：</p>
+<p>数月前初次接触网站建设，未果。国庆节左右，突然又想搭建一个属于我自己的博客，于是开始我的博客建设之路了。首先接触到wordpress，很著名很强大的博客平台，插件多，主题模板丰富，也较容易上手。但网站空间需要支持PHP和MySQL，于是我就在<a href="http://sourceforge.net" target="_blank" rel="external">SF</a>鼓捣，一直未成。偶然间，听到了<a href="http://hexo.io" target="_blank" rel="external">hexo</a>，hexo是由<a href="http://www.nodejs.org" target="_blank" rel="external">Node.js</a>驱动的一款快速、简单且功能强大的博客框架,可以方便的生成静态网页托管在github和Heroku上。<br>作者是来自台湾的大学生<a href="https://github.com/tommy351/hexo" target="_blank" rel="external">@tommy351</a>.“大学生”啊，吾等小白还只是写写关于他编的程序的安装及使用方法，惭愧惭愧。引用官方原话：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">A fast, simple & powerful blog framework,</div><div class="line">powered by Node.js.</div></pre></td></tr></table></figure>
 
 <p>hexo很容易使用，文件小，可以快速方便地生成网站文件。然后，我就开始用hexo构建此博客了。而且，这也是我写的第一篇技术博客。</p>
 <h2 id="准备工作">准备工作</h2>
 <h3 id="github">github</h3>
-<p>GitHub 是一个共享虚拟主机服务，用于存放使用Git版本控制的软件代码和内容项目。<br>作为开源代码库以及版本控制系统，Github目前拥有140多万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。<br>上述介绍来自维基与百度。在我看来，github就是开源项目托管代码，分享代码，与人合作共同开发项目的平台。<br>我之前就已经注册了，但一直不知道该干些什么，现在终于起到了作用。<br>我用github来托管我的博客的原因还有：github不限空间容量，不限流量，没有广告，可以绑定自己的域名。</p>
+<p>GitHub 是一个共享虚拟主机服务，用于存放使用Git版本控制的软件代码和内容项目。<br>作为开源代码库以及版本控制系统，Github目前拥有140多万开发者用户。随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。<br>上述介绍来自维基与百度。在我看来，github就是开源项目托管代码，分享代码，与人合作共同开发项目的平台。<br>我之前就已经注册了，但一直不知道该干些什么，现在终于起到了作用。<br>我用github来托管我的博客的原因还有：github免费，不限空间容量，不限流量，没有广告，可以绑定自己的域名。</p>
 <p>注册github账号后，新建仓库（repository），仓库名为：yourname.github.com<br>建好后，进入这个仓库，点右边setting，进入设置，找到github pages,点automatic page generator,自己随便选一个样式，之后可以更改，而且这之后会被你自己的网站替换，现在只是弄出来预览一下，让你知道这个网站空间已准备好。<br>github现在给你提供了域名yourname.github.com，进入看看，你就会看见刚刚预设的网页了。</p>
 <h3 id="域名（可选）">域名（可选）</h3>
 <p>我不想用yourname.github.com这个github提供的，想用我自己的，我就购买了flynn.xyz这个域名。</p>
@@ -148,14 +141,14 @@ ga('send', 'pageview');
 <p>以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
 
-<p>folder为你要安装hexo的路径。<br>对于不熟悉命令行操作的盆友，可在你想要安装的路径（如E:\hexo\）内，再右键进git bash，</p>
+<p>folder为你要安装hexo的路径。<br>对于不熟悉命令行操作的盆友，可在你想要安装的路径（如E:\hexo\）内，再右键进git bash，输入</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo init</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
 
 <p>即可</p>
 <p>现在已经搭建好博客了，输入下面这条命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ nexo generate</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 
-<p>然后在浏览器进入localhost:4000,你就会看到已经初始化的博客了。<br>好了，至此你的博客就已经在本地搭建好了。</p>
+<p>然后在浏览器进入localhost:4000,你就会看到已经初始化的博客了。</p>
 <h2 id="上传博客">上传博客</h2>
 <p>编辑你的Hexo目录下的_config.yml文件（替换成你自己的信息）：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: github</div><div class="line">  repository: https://github.com/yourname/yourname.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
@@ -177,7 +170,7 @@ ga('send', 'pageview');
 
 	  
 <span>
-更新日期:<time datetime="2014-10-19T10:52:09.000Z" itemprop="dateModified">10月 19 2014</time>
+更新日期:<time datetime="2014-10-20T14:14:41.000Z" itemprop="dateModified">10月 20 2014</time>
 </span>
 
 
