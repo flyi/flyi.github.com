@@ -157,7 +157,7 @@ body,
   height: 100%;
 }
 body {
-  background: url("http://flynn.qiniudn.com/landscape-f%5Csources%5Ccss%5Cimages%5Cbg.png") #eee;
+  background: url("http://flynn.qiniudn.com/landscape-f/sources/css/images/bg.png") #eee;
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
@@ -208,7 +208,7 @@ body {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out;
   z-index: 1;
-  background: url("http://flynn.qiniudn.com/landscape-f%5Csources%5Ccss%5Cimages%5Cbg.png") #eee;
+  background: url("http://flynn.qiniudn.com/landscape-f/sources/css/images/bg.png") #eee;
 }
 .mobile-nav-on #wrap {
   left: 280px;
@@ -392,7 +392,7 @@ body {
   z-index: -1;
 }
 #banner {
-  background: url("http://flynn.qiniudn.com/landscape-f%5Csources%5Ccss%5Cimages%5Cbanner.jpg") center;
+  background: url("http://flynn.qiniudn.com/landscape-f/sources/css/images/banner.jpg") center;
 }
 #header-title {
   text-align: center;
