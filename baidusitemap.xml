@@ -3,8 +3,22 @@
 
     
   <url>
+    <loc>http://flynn.xyz/2014/12/21/test-photo/</loc>
+    <lastmod>2014-12-21T14:23:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>test photo</title>
+        <pubTime>2014-12-21T09:24:42.000Z</pubTime>
+        
+         
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://flynn.xyz/2014/12/21/mineworld/</loc>
-    <lastmod>2014-12-21T05:05:54.000Z</lastmod>
+    <lastmod>2014-12-21T14:04:31.000Z</lastmod>
     <data>
         <display>
         <title>第一篇博文</title>
