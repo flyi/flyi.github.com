@@ -2,19 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
-    
   <url>
-    <loc>http://flynn.xyz/2014/12/21/mineworld/</loc>
-    <lastmod>2015-01-10T15:20:02.000Z</lastmod>
+    <loc>http://flynn.xyz/2015/01/14/back-to-future/</loc>
+    <lastmod>2015-01-14T15:00:15.000Z</lastmod>
     <data>
         <display>
-        <title>第一篇博文</title>
-        <pubTime>2014-12-21T03:58:27.000Z</pubTime>
+        <title>回到未来</title>
+        <pubTime>2015-01-14T14:46:04.000Z</pubTime>
         
          
-              <breadCrumb title="life" url="http://flynn.xyz/tags/life/"/>
+              <breadCrumb title="SciFi" url="http://flynn.xyz/tags/SciFi/"/>
           
-              <breadCrumb title="随感" url="http://flynn.xyz/categories/jottings/"/>
+              <breadCrumb title="文章" url="http://flynn.xyz/categories/essay/"/>
           
         </display>
     </data>
@@ -23,7 +22,7 @@
     
   <url>
     <loc>http://flynn.xyz/2014/10/13/Github+Hexo/</loc>
-    <lastmod>2015-01-10T15:19:25.000Z</lastmod>
+    <lastmod>2015-01-14T14:59:00.000Z</lastmod>
     <data>
         <display>
         <title>Github+Hexo构建我的博客</title>
@@ -40,6 +39,25 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://flynn.xyz/2014/12/21/mineworld/</loc>
+    <lastmod>2015-01-14T14:29:17.000Z</lastmod>
+    <data>
+        <display>
+        <title>第一篇博文</title>
+        <pubTime>2014-12-21T03:58:27.000Z</pubTime>
+        
+         
+              <breadCrumb title="life" url="http://flynn.xyz/tags/life/"/>
+          
+              <breadCrumb title="随感" url="http://flynn.xyz/categories/jottings/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://flynn.xyz/2014/12/27/RearWindow/</loc>

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[I'm Flynn.You are in my world!]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://flynn.xyz/"/>
-  <updated>2015-01-14T06:37:18.214Z</updated>
+  <updated>2015-01-14T15:01:13.012Z</updated>
   <id>http://flynn.xyz/</id>
   
   <author>
@@ -13,6 +13,27 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[回到未来]]></title>
+    <link href="http://flynn.xyz/2015/01/14/back-to-future/"/>
+    <id>http://flynn.xyz/2015/01/14/back-to-future/</id>
+    <published>2015-01-14T14:46:04.000Z</published>
+    <updated>2015-01-14T15:00:15.000Z</updated>
+    <content type="html"><![CDATA[<p>他是从未来穿越回来的，但记忆却已不在。<br>唯一还记得的是，他是时间机器的首位使用者。<br>由于技术原因，只有他的意识穿越回来了。<br>他的意识回到了年轻时候的自己的大脑。<br>就这样 ，这年轻的身体内存在着两个意识。<br>但他只是一个观察者，他观察着“自己”的生活 。<br>身体不受其控制，原意识不知道大脑内还有另一个意识。<br>日子一天天度过，他熟悉了“自己”的一切。</p>
+<p>多年以后，”自己”遭遇了一场严重的车祸。<br>昏迷了很长时间，家人都感到了绝望。<br>然而有一天，他醒了过来。<br>此时，他已不再是观察者，而是掌握了身体的支配权。</p>
+<p>之后，他加入了一个关于时间机器的研究项目。<br>经过毕生不懈的努力，他制造出了一个时间机器。<br> 完成当晚，他们举办晚宴庆祝成功。<br>尽管年迈，但心奋不已的他还是喝了不少酒。<br>不慎失足，再次陷入昏迷。<br>相隔数十年之后，他再次见到了原意识。<br>原意识却说：“我要夺回我的一切！”他被禁锢了。</p>
+<p>醒来后，不顾任何反对声，他坚持成为时间机器的首位使用者。<br>……  </p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>他是从未来穿越回来的，但记忆却已不在。<br>唯一还记得的是，他是时间机器的首位使用者。<br>由于技术原因，只有他的意识穿越回来了。<br>他的意识回到了年轻时候的自己的大脑。<br>就这样 ，这年轻的身体内存在着两个意识。<br>但他只是一个观察者，他观察着“自己”的生]]>
+    </summary>
+    
+      <category term="SciFi" scheme="http://flynn.xyz/tags/SciFi/"/>
+    
+      <category term="文章" scheme="http://flynn.xyz/categories/essay/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[《后窗》解析]]></title>
@@ -51,12 +72,12 @@
     <link href="http://flynn.xyz/2014/12/21/mineworld/"/>
     <id>http://flynn.xyz/2014/12/21/mineworld/</id>
     <published>2014-12-21T03:58:27.000Z</published>
-    <updated>2015-01-10T15:20:02.000Z</updated>
+    <updated>2015-01-14T14:29:17.000Z</updated>
     <content type="html"><![CDATA[<p>除了<a href="http://flynn.xyz/2014/10/13/Github+Hexo/" target="_blank" rel="external">Github+Hexo构建我的博客</a>以及其他几篇还未完成的写作计划，这才算是我正式写的第一篇博文了吧。</p>
 <p>好久好久以前，我就想建一个属于自己的网站，但一直没机会。9月份的时候就觉得该是时候去做的，10月份有时间也有了一定的能力，就正式开始摸索着建网站。</p>
 <p>显然，作为一个小白，我和大多数人一样，建的第一个网站就是个人博客。我不是一个爱写博客的人，很少发表东西到网上，现在觉得写点东西发布到博客也不错，好久都没动手写东西了。但我又不想发布到各种博客平台，新浪博客注册过但没用过，人人主页也是，我也不用微信，唯一在用的社交平台就是空间了。各类博客平台或空间都有很大的限制，自主性极低，我都不喜欢。我就想自己做一个独立博客，完全自主，限制极低。</p>
 <p>作为一名还未工作的不是土豪的学生，我手头没多少钱去租服务器，这域名也是看她便宜才买的。在网上找教程找资源，先后试过国内外的各种免费空间，几乎都有广告，有的还不能绑定自己的域名，且都对空间大小和流量有限制，我是绝对无法忍受的。后来我知道在sourceforge,github,gitbucket等开源项目代码托管平台上也可以建博客，就先试着在sourceforge上面建，我用的wordpress来建，但数据库不知为什么一直连不上。后来就放弃建动态博客了，改为在Github上面，用hexo来建静态博客。建成之后还挺满意的。</p>
-<p>博客建成之后，我就写了一篇<a href="http://flynn.xyz/2014/10/13/Github+Hexo/" target="_blank" rel="external">Github+Hexo构建我的博客</a>，然后就不知道该写什么了，虽然有两三个写作计划，但短期内还写不到能够发表的程度，于是这两个月就没什么内容。我也一直在思考我的这个博客该是怎样的定位，是专注于技术还是文艺还是个人生活，个人身份是该完全保密还是公开，完全原创还是偶有转载文章。至今还没想好。那就算了吧，想发表什么就发表什么，活得轻松些，别太纠结，隐私这类事该注意，也要懂得平衡。</p>
+<p>博客建成之后，我就写了一篇Github+Hexo构建我的博客，然后就不知道该写什么了，虽然有两三个写作计划，但短期内还写不到能够发表的程度，于是这两个月就没什么内容。我也一直在思考我的这个博客该是怎样的定位，是专注于技术还是文艺还是个人生活，个人身份是该完全保密还是公开，完全原创还是偶有转载文章。至今还没想好。那就算了吧，想发表什么就发表什么，活得轻松些，别太纠结，隐私这类事该注意，也要懂得平衡。</p>
 <p>我现在只把它告诉了我的好朋友，至于以后会不会得到其他人的关注，我也不太在意。我想的就是，我要在网上拥有一个真正的完全属于我自己的世界，I’m the king of the world!</p>
 ]]></content>
     <summary type="html">
@@ -74,14 +95,15 @@
     <link href="http://flynn.xyz/2014/10/13/Github+Hexo/"/>
     <id>http://flynn.xyz/2014/10/13/Github+Hexo/</id>
     <published>2014-10-12T16:09:13.000Z</published>
-    <updated>2015-01-10T15:19:25.000Z</updated>
+    <updated>2015-01-14T14:59:00.000Z</updated>
     <content type="html"><![CDATA[<p>我的这个博客网站是用hexo搭建，在Github上托管的。下面我记录下我的建站过程。</p>
 <a id="more"></a>
 
 <p>数月前初次接触网站建设，未果。国庆节左右，突然又想搭建一个属于我自己的博客，于是开始我的博客建设之路了。首先接触到wordpress，很著名很强大的博客平台，插件多，主题模板丰富，也较容易上手。但网站空间需要支持PHP和MySQL，于是我就在<a href="http://sourceforge.net" target="_blank" rel="external">SF</a>鼓捣，一直未成。偶然间，听到了<a href="http://hexo.io" target="_blank" rel="external">hexo</a>，hexo是由<a href="http://www.nodejs.org" target="_blank" rel="external">Node.js</a>驱动的一款快速、简单且功能强大的博客框架,可以方便的生成静态网页托管在github和Heroku上。</p>
 <p>作者是来自台湾的大学生<a href="https://github.com/tommy351/hexo" target="_blank" rel="external">@tommy351</a>.“大学生”啊，吾等小白还只是写写关于他编的程序的安装及使用方法，惭愧惭愧。引用官方原话：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">A fast, simple & powerful blog framework,</div><div class="line">powered by Node.js.</div></pre></td></tr></table></figure>
-
+<blockquote>
+<p>A fast, simple &amp; powerful blog framework,powered by Node.js.</p>
+</blockquote>
 <p>hexo很容易使用，文件小，可以快速方便地生成网站文件。然后，我就开始用hexo构建此博客了。而且，这也是我写的第一篇技术博客。</p>
 <h2 id="准备工作">准备工作</h2>
 <h3 id="github">github</h3>
@@ -107,7 +129,7 @@
 
 <p>即可</p>
 <p>现在已经搭建好博客了，输入下面这条命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ nexo generate</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 
 <p>然后在浏览器进入localhost:4000,你就会看到已经初始化的博客了。</p>
 <h2 id="上传博客">上传博客</h2>
@@ -115,8 +137,8 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: github</div><div class="line">  repository: https://github.com/yourname/yourname.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
 
 <p>现在需要配置SSH keys，容我之后再介绍。</p>
-<p>暂时可以下载安装Github的官方Git软件，手动将你的博客文件（在你的hexo\deploy\，除.git文件外都是）上传到你的Github的yourname.github.com仓库中。</p>
-<p>未完，待续。。。</p>
+<p>暂时可以下载安装Github的官方Git软件，手动将你的博客文件（在你的hexo\deploy\，除.git文件外都是）上传到你的Github的yourname.github.com仓库中。此时，以你自己的域名或yourname.github.com都进入你的博客，虽然此时还只是未进行任何设置的初始化博客。</p>
+<p>未完，待续。。。（二月份放假了再写如何个性化设置，以及写作，发布等等）</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>我的这个博客网站是用hexo搭建，在Github上托管的。下面我记录下我的建站过程。</p>
