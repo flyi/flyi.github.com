@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://flynn.xyz/2014/10/16/brief-comment/</loc>
+    <lastmod>2015-02-08T03:46:18.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://flynn.xyz/2014/12/21/mineworld/</loc>
+    <lastmod>2015-02-08T03:44:32.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://flynn.xyz/2015/02/05/winter-holiday/</loc>
     <lastmod>2015-02-05T12:45:18.000Z</lastmod>
   </url>
@@ -14,11 +24,6 @@
   <url>
     <loc>http://flynn.xyz/X-Files/index.html</loc>
     <lastmod>2015-01-30T05:18:13.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://flynn.xyz/2014/12/21/mineworld/</loc>
-    <lastmod>2015-01-30T04:35:19.000Z</lastmod>
   </url>
   
   <url>
